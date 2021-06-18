@@ -1,2 +1,2 @@
-# oscarApp
-Student project
+# Oscar Application
+Student project (api, dtd, php)
