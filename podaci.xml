@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE filmovi SYSTEM "gramatika.dtd">
+<?xml-stylesheet type="text/xsl" href="pretvorba.xsl"?>
+
+<filmovi>
+
+<film id="1" desetljece="50" balkanski_film="Ne" prethodni_pobjednik="Ne">
+	<naziv>Kradljivci bicikla</naziv>
+	<wiki>Bicycle_Thieves</wiki>
+	<redatelj>
+        <ime_redatelj>Vittorio De Sica</ime_redatelj>
+    
+    </redatelj>
+	<godina>1950</godina>
+    <originalni_naziv>Ladri di biciclette</originalni_naziv>
+	<sinopsis>Talijanski film o kradljivcima bicikala</sinopsis>
+	<trajanje>120</trajanje>
+	<jezik>
+			<ime_jezika>talijanski</ime_jezika>
+	</jezik>
+	<imdb>tt0040522</imdb>
+</film>
+
+<film id="2" desetljece="50" balkanski_film="Ne" prethodni_pobjednik="Ne">
+	<naziv>Rašomon</naziv>
+	<wiki>Rashomon</wiki>
+	<redatelj>
+        <ime_redatelj>Akira Kurosawa</ime_redatelj>
+    </redatelj>
+	<godina>1952</godina>
+    <originalni_naziv>Rashomon</originalni_naziv>
+	<sinopsis>Samuraji</sinopsis>
+	<trajanje>180</trajanje>
+	<jezik>
+			<ime_jezika>japanski</ime_jezika>
+	</jezik>
+	<imdb>tt0042876</imdb>
+</film>
+
+<film id="3" desetljece="50" balkanski_film="Ne" prethodni_pobjednik="Da">
+	<naziv>Ulica</naziv>
+	<wiki>La_Strada</wiki>
+	<redatelj>
+        <ime_redatelj>Federico Fellini</ime_redatelj>
+    </redatelj>
+	<godina>1957</godina>
+    <originalni_naziv>La Strada</originalni_naziv>
+	<sinopsis>Ljubavni</sinopsis>
+	<trajanje>150</trajanje>
+	<jezik>
+			<ime_jezika>talijanski</ime_jezika>
+	</jezik>
+	<imdb>tt0047528</imdb>
+</film>
+
+<film id="4" desetljece="80" balkanski_film="Da" prethodni_pobjednik="Ne">
+	<naziv>Napad</naziv>
+	<wiki>The_Assault_(1986_film)</wiki>
+	<redatelj>
+        <ime_redatelj>Fons Rademakers</ime_redatelj>
+    </redatelj>
+	<godina>1986</godina>
+    <originalni_naziv>De aanslag</originalni_naziv>
+	<sinopsis>Ratni</sinopsis>
+	<trajanje>144</trajanje>
+	<jezik>
+			<ime_jezika>nizozemski</ime_jezika>
+	</jezik>
+	<imdb>tt0090576</imdb>
+</film>
+
+<film id="5" desetljece="2020" balkanski_film="Ne" prethodni_pobjednik="Ne">
+	<naziv>Parazit</naziv>
+	<wiki>Parasite_(2019_film)</wiki>
+	<redatelj>
+        <ime_redatelj>Bong Joon-ho</ime_redatelj>
+    </redatelj>
+	<godina>2020</godina>
+    <originalni_naziv>Gisaengchung</originalni_naziv>
+	<sinopsis>Socijalna satira</sinopsis>
+	<trajanje>132</trajanje>
+	<jezik>
+            <ime_jezika>korejski</ime_jezika>
+			<ime_jezika>engleski</ime_jezika>
+	</jezik>
+	<imdb>tt6751668</imdb>
+</film>
+		
+</filmovi>

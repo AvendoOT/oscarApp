@@ -1,0 +1,121 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- HTML5 saved UTF-8 with BOM-->
+    <link rel="stylesheet" type="text/css" href="dizajn.css">
+    <title>OSCAR search</title>
+</head>
+
+<body>
+    <div class="index-header">
+        <!-- Can use html element header but layout is made using only div elements -->
+        <div class="index-title">
+            <a href="index.html"><img class="oscar-head-logo" src="assets/oscar_head_logo.png" alt="oscar-logo">
+                <h2>OSCARI ZA NAJBOLJI STRANI FILM</h2>
+            </a>
+        </div>
+    </div>
+
+    <div class="index-navbar">
+        <a class="link" href="index.html">Početna</a>
+        <a class="link" href="obrazac.html">Pretraži oskarovce</a>
+        <a class="link" href="podaci.xml">Katalog filmova</a>
+        <a class="link" href="http://www.fer.unizg.hr/predmet/or">Otvoreno računarstvo</a>
+        <a class="link" href="http://www.fer.unizg.hr" target="_blank">FER</a>
+        <a class="link" href="mailto:leon.kranjcevic@fer.hr">E-mail</a>
+    </div>
+
+    <div class="search">
+        <h2 class="form-header"> Pretraži Oskarovce</h2>
+
+        <form action="pretraga.php" method="get" name="search">
+            <table>
+                <tr>
+                    <td>Naziv filma:</td>
+                    <td><input type="text" name="naziv"></td>
+                </tr>
+                <tr>
+                    <td>Godina:</td>
+                    <td><input type="text" name="godina"></td>
+                </tr>
+                <tr>
+                    <td>Originalni naziv:</td>
+                    <td><input type="text" name="originalni_naziv"></td>
+                </tr>
+                <tr>
+                    <td>Redatelj:</td>
+                    <td><input type="text" name="ime_redatelj"></td>
+                </tr>
+                <tr>
+                    <td>Trajanje:</td>
+                    <td>
+                        <label for="minimalno">Minimalno</label>
+                        <input type="number" id="minimalno" name="trajanje_start">
+                        <label for="maksimalno">Maksimalno</label>
+                        <input type="number" id="maksimalno" name="trajanje_end">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Sinopsis:</td>
+                    <td><input type="text" name="sinopsis"></td>
+                </tr>
+
+                <tr>
+                    <td>Jezik:</td>
+                    <td><input type="text" name="ime_jezik" /></td>
+                </tr>
+                <tr>
+                    <td>Desetljeće:</td>
+                    <td>
+                        <label for="minimalno">Minimalno</label>
+                        <select name="desetljeceStart" id="minimalno" multiple>
+                        <option value="40"  >1940</option>
+						<option value="50"  >1950</option>
+						<option value="60"  >1960</option>
+						<option value="70"  >1970</option>
+						<option value="80"  >1980</option>
+						<option value="90"  >1990</option>
+						<option value="2000"  >2000</option>
+						<option value="2010"  >2010</option>
+						<option value="2020"  >2020</option>
+                    </select>
+                        <label for="maksimalno">Maksimalno</label>
+                        <select name="desetljeceEnd" id="maksimalno" multiple>
+                        <option value="40"  >1940</option>
+						<option value="50"  >1950</option>
+						<option value="60"  >1960</option>
+						<option value="70"  >1970</option>
+						<option value="80"  >1980</option>
+						<option value="90"  >1990</option>
+						<option value="2000"  >2000</option>
+						<option value="2010"  >2010</option>
+						<option value="2020"  >2020</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Balkanski film:</td>
+                    <td> <input type="radio" name="balkanski_film" value="Da"><label>Da</label>
+                        <input type="radio" name="balkanski_film" value="Ne"><label>Ne</label></td>
+                </tr>
+                <br/>
+                <tr>
+                    <td></td>
+                    <td> <input type="submit" value="Pretraži" />
+                        <input type="reset" value="Resetiraj" />
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+    </div>
+
+    <div class="footer">
+        <h4>Made by Leon Kranjčević</h4>
+    </div>
+</body>
+
+</html>

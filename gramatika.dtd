@@ -1,0 +1,19 @@
+<!ELEMENT filmovi (film*)>
+
+<!ELEMENT film (naziv, wiki, redatelj,godina,originalni_naziv,sinopsis?,trajanje,jezik, imdb)>
+
+<!ATTLIST film id CDATA #REQUIRED>
+<!ELEMENT wiki (#PCDATA)>
+<!ATTLIST film desetljece (30|40|50|60|70|80|90|2000|2010|2020) #REQUIRED>
+<!ATTLIST film balkanski_film CDATA #REQUIRED>
+<!ATTLIST film prethodni_pobjednik CDATA #IMPLIED>
+<!ELEMENT naziv (#PCDATA)>
+<!ELEMENT godina (#PCDATA)> 
+<!ELEMENT originalni_naziv (#PCDATA)>
+<!ELEMENT redatelj (ime_redatelj)>
+    <!ELEMENT ime_redatelj (#PCDATA)>
+<!ELEMENT sinopsis (#PCDATA)>
+<!ELEMENT trajanje (#PCDATA)>
+<!ELEMENT jezik (ime_jezika+)>
+    <!ELEMENT ime_jezika (#PCDATA)>
+<!ELEMENT imdb (#PCDATA)>
